@@ -5,7 +5,7 @@
   "license": "GPL-3.0",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/Merrit/nyrna/releases/downlaod/v2.27.2/Nyrna-Windows-Portable.zip",
+      "url": "https://github.com/Merrit/nyrna/releases/download/v2.27.2/Nyrna-Windows-Portable.zip",
       "hash": "A3E609F3B80AB5B2D079F51F59FE6BB113A2003BAFFF3B32439A352000F9C7BC"
     }
   },
