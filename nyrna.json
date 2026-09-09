@@ -6,7 +6,7 @@
   "architecture": {
     "64bit": {
       "url": "https://github.com/Merrit/nyrna/releases/tag/v2.27.2/Nyrna-Windows-Portable.zip",
-      "hash": "A3E609F3B80AB5B2D079F51F59FE6BB113A2003BAFFF3B32439A352000F9C7BC"
+      "hash": "dbaa1aa7bbd64a7a00866b80afc3a1e2d1eb4635015940c408b5d2e14e6d05a2"
     }
   },
   "bin": "nyrna.exe",
