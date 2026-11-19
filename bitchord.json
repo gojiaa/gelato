@@ -1,0 +1,24 @@
+{
+  "version": "2.0.1",
+  "description": "A modern YouTube music PC based client with clean aesthetics inspired from Apple Music.",
+  "homepage": "https://github.com/jackychan4891/BitChord-PC-Official",
+  "license": "GPL-3.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/jackychan4891/BitChord-PC-Official/releases/download/v2.0.1/bitchord-portable-2.0.1.zip",
+      "hash": "D38AD14334A17D6A21DB2C40A52EC4BBD900B538C9D2DCD2739258A1F35DCC77"
+    }
+  },
+  "bin": "bitchord.exe",
+  "shortcuts":[
+    ["bitchord.exe","BitChord"]
+  ],
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/jackychan4891/BitChord-PC-Official/releases/download/v$version/bitchord-portable-2.0.1.zip"
+      }
+    }
+  }
+}
