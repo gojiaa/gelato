@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0-nightly.20261126.105",
+  "description": "Tiny, Performant & 100% Native client for Discord made in Rust",
+  "homepage": "https://github.com/ViceVerse-cz/Serein",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/ViceVerse-cz/Serein/download/tag/v1.0.0-nightly.20261126.105/serein-v1.0.0-nightly.20261126.105-Windows-X64.zip",
+      "hash": "b6aea1323d2c26542168bcfcfe1c20b7570fed349945bae7f87bebfc939af399"
+    }
+  },
+  "bin": "serein.exe",
+  "shortcuts":[
+    ["serein.exe","Serein"]
+  ],
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/ViceVerse-cz/Serein/download/tag/v$version/serein-v1.0.0-nightly.20261126.105-Windows-X64.zip"
+      }
+    }
+  }
+}
